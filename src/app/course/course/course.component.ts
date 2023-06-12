@@ -10,17 +10,16 @@ import { Observable } from 'rxjs';
 })
 export class CourseComponent implements OnInit {
 
-  courses: Observable<Course[]>;
+  courses$: Observable<Course[]>;
   displayedColumns = ['name', 'category'];
 
   constructor(
     private coursesService: CoursesService
   ) {
-    this.courses = this.coursesService.list();
+    this.courses$ = this.coursesService.list();
   }
 
   ngOnInit(): void {
-    this.courses = this.coursesService.list();
   }
 
 }
