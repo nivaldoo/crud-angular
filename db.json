@@ -1,0 +1,19 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Angular",
+      "category": "back-end"
+    },
+    {
+      "name": "Java",
+      "category": "front-end",
+      "id": "eNoLWsT"
+    },
+    {
+      "name": "JavaScript",
+      "category": "front-end",
+      "id": "O7EBIc0"
+    }
+  ]
+}
