@@ -1,6 +1,7 @@
 {
   "courses": [
     {
+<<<<<<< HEAD
       "name": "Angular",
       "category": "front-end",
       "id": 1
@@ -14,11 +15,30 @@
       "name": "C++",
       "category": "back-end",
       "id": 3
+=======
+      "id": "1",
+      "name": "Angular",
+      "category": "back-end"
+    },
+    {
+      "name": "Java",
+      "category": "front-end",
+      "id": "eNoLWsT"
+>>>>>>> f9932a44cc3820951af7286c7bba0cb02658042d
     },
     {
       "name": "JavaScript",
       "category": "front-end",
+<<<<<<< HEAD
       "id": 4
+=======
+      "id": "O7EBIc0"
+    },
+    {
+      "name": "teste",
+      "category": "back-end",
+      "id": "EGHKqlJ"
+>>>>>>> f9932a44cc3820951af7286c7bba0cb02658042d
     }
   ]
 }
