@@ -1,0 +1,16 @@
+POST http://localhost:3000/courses
+Content-Type: application/json
+
+{
+    "name":"nivaldo",
+    "category": "teste"
+}
+
+###
+
+GET http://localhost:3000/courses
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:3000/courses/4
